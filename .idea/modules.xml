@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/andriodMobile.iml" filepath="$PROJECT_DIR$/.idea/modules/andriodMobile.iml" group="andriodMobile" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/andriodMobile_main.iml" filepath="$PROJECT_DIR$/.idea/modules/andriodMobile_main.iml" group="andriodMobile" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/andriodMobile_test.iml" filepath="$PROJECT_DIR$/.idea/modules/andriodMobile_test.iml" group="andriodMobile" />
+    </modules>
+  </component>
+</project>
