@@ -9,6 +9,12 @@ import java.net.URL;
 
 public class ApplicationManager {
     AppiumDriver driver;
+    SessionHelper session;
+
+    public void setSession(SessionHelper session) {
+        this.session = session;
+    }
+
     public void init() throws MalformedURLException {
 
         DesiredCapabilities caps = new DesiredCapabilities();
@@ -22,7 +28,13 @@ public class ApplicationManager {
 
 
         driver = new AndroidDriver(new URL("http://127.0.0.1:4723/wd/hub"), caps);
+        session= new SessionHelper(driver);
+
     }
+    public SessionHelper getSession() {
+        return session;
+    }
+
     public void stop() {
     }
 }
